@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(60deg,#a800f6, #5100d3);
+    font-family: 'Segoe UI';
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+
+.outer-form{
+    width: 500px;
+    min-height: 500px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.outer-form .top-form{
+    margin: 70px 10px;
+    text-align: center;
+
+}
+.outer-form form.feedback input{
+    margin-bottom: 60px;
+    width: 100%;
+
+}
+.outer-form form.feedback .input-email, .input-password, .input-name, .input-surname, .input-birthYear{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #6b6b6b;
+    padding: 10px 0px;
+}
+.outer-form form.feedback{
+    margin: 0px 10px;
+}
+.outer-form label{
+    font-size: 120%;
+}
+
+.outer-form form.feedback input[type="submit"]{
+    background: none;
+    border: none;
+    background-image: linear-gradient(-60deg, #a800f6, #5100d3);
+    padding: 15px 0;
+    border-radius: 55px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 1.7s;
+}
+
+.outer-form form.feedback input[type="submit"]:hover{
+    cursor: pointer;
+    border: 1px solid #a800f6;
+    background: #4a00c28f;
+
+}
+
